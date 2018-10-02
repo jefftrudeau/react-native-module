@@ -1,3 +1,14 @@
+Version 2.1.1 - October 1, 2018
+=================================
+- Reverted Android firebase-core dependency back to 16.0.1 to avoid bug in 16.0.3.
+
+Version 2.1.0 - September 20, 2018
+=================================
+- Added support for enabling notifications with a resulting promise.
+- Fixed iOS event addition bug.
+- Updated Android SDK to 9.5.2.
+- Updated iOS SDK to 10.0.0.
+
 Version 2.0.3 - October 1, 2018
 ===============================
 - Fixed iOS pending event (backported from 2.1.0).
